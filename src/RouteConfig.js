@@ -2,9 +2,9 @@
 // route config
 import Home from "./components/Home";
 import Other from "./components/Other";
-import Youtube from "./components/Youtube";
-import Markdown from "./components/Markdown";
-import CountDown from "./components/Countdown";
+import Youtube from "./components/youtube/Youtube";
+import Markdown from "./components/markdown/Markdown";
+import CountDown from "./components/countdown/Countdown";
 
 const routes = [
   {
@@ -12,12 +12,12 @@ const routes = [
     component: Home,
     routes: [
       {
-        path: "/home/youtube",
-        component: Youtube
-      },
-      {
         path: "/home/markdown",
         component: Markdown
+      },
+      {
+        path: "/home/youtube",
+        component: Youtube
       },
       {
         path: "/home/countdown",
