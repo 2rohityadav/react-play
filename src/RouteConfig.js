@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Other from "./components/Other";
 import Youtube from "./components/Youtube";
 import Markdown from "./components/Markdown";
+import CountDown from "./components/Countdown";
 
 const routes = [
   {
@@ -17,6 +18,10 @@ const routes = [
       {
         path: "/home/markdown",
         component: Markdown
+      },
+      {
+        path: "/home/countdown",
+        component: CountDown
       }
     ]
   },

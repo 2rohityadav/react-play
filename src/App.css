@@ -48,6 +48,25 @@
   background-color: #61DAFB;
   color: #222;
 }
+.nav-home {
+  padding-bottom: 30px;
+  background-color: #222;
+}
+.nav-home a {
+  display: inline-block;
+  text-align: center;
+  margin: 0 15px;
+  padding: 6px 12px;
+  border: 1px rgba(255,255,255,0.5) solid;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.nav-home a.active {
+  background-color: #61DAFB;
+  color: #222;
+}
 section {
   padding: 50px 0;
   max-width: 600px;
